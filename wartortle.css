@@ -1,0 +1,123 @@
+/* resetando as confgs do navegador */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    /* para não ter sublinhado no link, e não mudar de cor ao clicar */
+}
+/* root cria variavel que vale para todo o arquivo, e sempre começa com -- */
+:root{
+    --primary-color: #87CEFA;
+    --second-color: #5979BB;
+}
+body{
+    height: 100vh;
+    background-color: var(--primary-color);
+    flex-direction: column;
+    padding-inline: 64px;
+    font-family: "Righteous", sans-serif;
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    /* se espalhem entre */
+}
+header a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* align items só existe se o flex existir, alinha verticalmente e dentro da sua caixa */
+    font-size: 24px;
+    color: var(--second-color);
+    gap: 16px;
+    /* gap: espaço entre os itens enquanto ele for flex */
+
+}
+header div{
+    display: flex;
+    gap: 24px;
+}
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    /* flex para indicar a organização das coisas em colunas */
+    justify-content: center;
+    /* flex-grow é a propriedade dele se esticar o max que puder (só filhos de flex podem */
+}
+.title{
+    position: relative;
+
+}
+.title h1{
+    font-size: 20vw;
+    /* está falando ultilize 20% da minha largura, independente do tamanho da tela */
+    text-align: center;
+    color: white;
+    top: -15%;
+    left: 0;
+    
+}
+.title span{
+    position: absolute;
+    /* position absolute faz ele não depender mais do pai e ganha algumas propriedade, como o top*/
+    font-size: 20vw;
+    top: -15%;
+    left: 0;
+    opacity: 0.1;
+
+}
+.container{
+    height: 200px;
+    display: flex;
+    z-index: 1;
+    /* trazer o texto p frente, p ficar em cima do pikachu */
+}
+.container div{
+     width: 50%;
+    /* falando para cada uma das divs ficar com 50% */
+    color: var(--second-color);
+}
+.container h2{
+    font-size: 4vw;
+}
+.container p{
+    font-size: 1.5vw;
+    width: 40pw;
+
+}
+.action{
+    display: flex;
+    justify-content: end;
+}
+.action a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 400px;
+    background-color: var(--second-color);
+    color: white;
+    font-size: 48px;
+
+}
+
+footer{
+    height: 50px;
+    color: color var(--second-color);
+    font-style: italic;
+    text-align: center;
+}
+.wartortle-image{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 60vh;
+    /* sempre usar essas 3 linhas para alinhar ao meio quanso usar position absolute (que solta do pai) */
+}
