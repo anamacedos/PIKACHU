@@ -1,4 +1,4 @@
-* resetando as config do navegador */
+/* resetando as config do navegador */
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ a{
 /* root cria variavel que vale para todo o arquivo, e sempre começa com -- */
 :root{
     --primary-color: #7FBDC1;
-    --second-color: #9B8EC2;
+    --second-color: #9B8EC2;    ;
 }
 body{
     height: 100vh;
@@ -60,7 +60,7 @@ main{
 
 }
 .title h1{
-    font-size: 20vw;
+    font-size: 18vw;
     /* está falando ultilize 20% da minha largura, independente do tamanho da tela */
     text-align: center;
     color: white;
@@ -68,57 +68,58 @@ main{
 .title span{
     position: absolute;
     /* position absolute faz ele não depender mais do pai e ganha algumas propriedade, como o top*/
-    font-size: 25vw;
+    font-size: 18vw;
     top: -40%;
     left: 0;
-    opacity: 0.1;}
+    opacity: 0.1;
 
-    .container{
-        height: 200px;
-        display: flex;
-        z-index: 1;
-        /* trazer o texto p frente, p ficar em cima do pikachu */
-    }
-    .container div{
-         width: 50%;
-        /* falando para cada uma das divs ficar com 50% */
-        color: var(--second-color);
-    }
-    .container h2{
-        font-size: 4vw;
-    }
-    .container p{
-        font-size: 1.5vw;
-        width: 40pw;
-    
-    }
-    .action{
-        display: flex;
-        justify-content: end;
-    }
-    .action a{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100px;
-        width: 400px;
-        background-color: var(--second-color);
-        color: white;
-        font-size: 48px;
-    
-    }
-    
-    footer{
-        height: 50px;
-        text-align: center;
-        color: var(--second-color);
-        font-size: italic;
-    }
-    .butterfree-image{
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        height: 75vh;
-        /* sempre usar essas 3 linhas para alinhar ao meio quanso usar position absolute (que solta do pai) */
-    }
+}
+.container{
+    height: 200px;
+    display: flex;
+    z-index: 1;
+    /* trazer o texto p frente, p ficar em cima do pikachu */
+}
+.container div{
+     width: 50%;
+    /* falando para cada uma das divs ficar com 50% */
+    color: var(--second-color);
+}
+.container h2{
+    font-size: 4vw;
+}
+.container p{
+    font-size: 1.5vw;
+    width: 40pw;
+
+}
+.action{
+    display: flex;
+    justify-content: end;
+}
+.action a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 400px;
+    background-color: var(--second-color);
+    color: white;
+    font-size: 48px;
+
+}
+
+footer{
+    height: 50px;
+    text-align: center;
+    color: var(--second-color);
+    font-size: italic;
+}
+.butterfree-image{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 75vh;
+    /* sempre usar essas 3 linhas para alinhar ao meio quanso usar position absolute (que solta do pai) */
+}

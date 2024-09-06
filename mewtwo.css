@@ -10,8 +10,8 @@ a{
 }
 /* root cria variavel que vale para todo o arquivo, e sempre começa com -- */
 :root{
-    --primary-color: #87CEFA;
-    --second-color: #5979BB;
+    --primary-color: rgb(141, 129, 171);
+    --second-color: rgb(118, 19, 68);
 }
 body{
     height: 100vh;
@@ -38,7 +38,7 @@ header a{
     align-items: center;
     /* align items só existe se o flex existir, alinha verticalmente e dentro da sua caixa */
     font-size: 24px;
-    color: white;
+    color: var(--second-color);
     gap: 16px;
     /* gap: espaço entre os itens enquanto ele for flex */
 
@@ -68,7 +68,7 @@ main{
 .title span{
     position: absolute;
     /* position absolute faz ele não depender mais do pai e ganha algumas propriedade, como o top*/
-    font-size: 20vw;
+    font-size: 25vw;
     top: -40%;
     left: 0;
     opacity: 0.1;
@@ -115,7 +115,7 @@ footer{
     color: var(--second-color);
     font-size: italic;
 }
-.pikachu-image{
+.mewtwo-image{
     position: absolute;
     left: 50%;
     top: 50%;
