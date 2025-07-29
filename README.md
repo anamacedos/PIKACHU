@@ -11,10 +11,10 @@ O objetivo desse projeto é colocar em prática os conhecimentos adquiridos sobr
 
 ---
 ## Tecnologias Ultilizadas 
-ESP32 – Microcontrolador principal
-MicroPython – Linguagem usada para programar o ESP32
-Wokwi – Simulador online de circuitos (https://wokwi.com)
-LEDs e resistores – Para representar as luzes do semáforo
+ESP32 – Microcontrolador principal  
+MicroPython – Linguagem usada para programar o ESP32  
+Wokwi – Simulador online de circuitos (https://wokwi.com)  
+LEDs e resistores – Para representar as luzes do semáforo  
 
 ---
 ## Autor
