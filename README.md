@@ -3,11 +3,8 @@ Este projeto simula o funcionamento de um semáforo usando um microcontrolador E
 
 ---
 ## Sobre
-O objetivo deste projeto é controlar três LEDs que representam as luzes de um semáforo:
-Verde: acende por 20 segundos (liberar o tráfego)
-Amarelo: acende por 10 segundos (atenção)
-Vermelho: acende por 7 segundos (parar)
-Este ciclo se repete indefinidamente, simulando o comportamento de um semáforo simples.
+O objetivo deste projeto é controlar três LEDs que representam as luzes de um semáforo onde o verde acende por 20 segundos (liberar o tráfego), o amarelo acende por 10 segundos (atenção) e o vermelho: acende por 7 segundos (parar).
+Este ciclo se repete sem tempo definido, simulando o comportamento de um semáforo simples.
 
 
 O objetivo desse projeto é colocar em prática os conhecimentos adquiridos sobre IIOT, durante o curso de desenvolvimento de sistema do [SENAI Jandira] (https://sp.senai.br)
